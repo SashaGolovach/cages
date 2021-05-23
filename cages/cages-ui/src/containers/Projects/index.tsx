@@ -1,15 +1,15 @@
 import React from "react";
 import NavBar from "../../components/NavBar";
-import Projects from "../Projects";
 import Styles from "./styles.module.scss";
 
-function HomePage() {
+function ProjectsPage() {
   return (
     <>
-      <NavBar></NavBar>
-      <Projects></Projects>
+      <div className={Styles.projects}>
+        <h3>Projects</h3>
+      </div>
     </>
   );
 }
 
-export default HomePage;
+export default ProjectsPage;
